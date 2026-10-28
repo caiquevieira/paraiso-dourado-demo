@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Paraíso Dourado | Bronzeamento artificial no Jaguaré, SP</title>
   <meta name="description" content="Marquinha de fita e bronze com aerógrafo no Jaguaré, zona oeste de São Paulo. Aberto 24 horas. Agende pelo WhatsApp.">
-  <link rel="canonical" href="https://caiquevieira.github.io/paraiso-dourado-demo/">
+  <link rel="canonical" href="https://{{DOMINIO}}/">
   <meta name="theme-color" content="#6e3415">
   <!-- DEMO:INICIO -->
   <meta name="robots" content="noindex,nofollow">
@@ -20,8 +20,8 @@
   <meta property="og:site_name" content="Paraíso Dourado bronzeamento artificial">
   <meta property="og:title" content="Paraíso Dourado | Bronzeamento artificial no Jaguaré, SP">
   <meta property="og:description" content="Marquinha de fita e bronze com aerógrafo no Jaguaré, zona oeste de São Paulo. Aberto 24 horas. Agende pelo WhatsApp.">
-  <meta property="og:url" content="https://caiquevieira.github.io/paraiso-dourado-demo/">
-  <meta property="og:image" content="https://caiquevieira.github.io/paraiso-dourado-demo/assets/img/og-image.jpg">
+  <meta property="og:url" content="https://{{DOMINIO}}/">
+  <meta property="og:image" content="https://{{DOMINIO}}/assets/img/og-image.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
 
@@ -32,8 +32,8 @@
     @font-face { font-family: "Figtree"; font-weight: 400 700; font-style: normal; font-display: swap; src: url("assets/fonts/figtree-variavel.woff2") format("woff2"); }
   </style>
 
-  <link rel="stylesheet" href="assets/css/styles.css?v=202610282022">
-  <script src="assets/js/main.js?v=202610282022" defer></script>
+  <link rel="stylesheet" href="assets/css/styles.css?v=202610282032">
+  <script src="assets/js/main.js?v=202610282032" defer></script>
 
   <!-- Coordenadas (geo) omitidas até confirmar a latitude/longitude exatas do estúdio -->
   <script type="application/ld+json">
@@ -41,8 +41,8 @@
     "@context": "https://schema.org",
     "@type": "TanningSalon",
     "name": "Paraíso Dourado bronzeamento artificial",
-    "url": "https://caiquevieira.github.io/paraiso-dourado-demo/",
-    "image": "https://caiquevieira.github.io/paraiso-dourado-demo/assets/img/hero-1600.webp",
+    "url": "https://{{DOMINIO}}/",
+    "image": "https://{{DOMINIO}}/assets/img/hero-1600.webp",
     "telephone": "+5511932530666",
     "address": {
       "@type": "PostalAddress",
@@ -105,38 +105,33 @@
 
 <main id="conteudo">
 <!-- SECTION: hero -->
-<!-- Elemento ousado da página: a faixa da marquinha (alça de biquíni de fita em V, SVG inline), por trás da foto.
-     O SVG cobre a foto e sobra 60% à esquerda; viewBox 640x600 = 1,6 × 1,2 da caixa 4:5 da foto. -->
+<!-- Compacto de propósito: no celular a foto é baixa (4:3) e no desktop limitada à altura da tela,
+     para os botões aparecerem já na primeira dobra. -->
 <section id="inicio" class="overflow-hidden bg-marca text-sobre-marca" aria-labelledby="hero-titulo">
-  <div class="container-lp grid gap-10 pt-8 pb-16 md:py-20 lg:grid-cols-[1.05fr_1fr] lg:items-center lg:gap-16">
-    <div class="relative z-10 order-2 lg:order-1">
-      <h1 id="hero-titulo" class="font-titulo text-[2.75rem] leading-[1.02] text-balance sm:text-6xl lg:text-7xl">Marquinha dourada no Jaguaré.</h1>
-      <p class="mt-6 max-w-[34rem] text-lg text-superficie md:text-xl">Bronze de fita ou com aerógrafo, feito pela Aline num estúdio pensado para você ficar à vontade, até na primeira vez.</p>
-      <div class="mt-8 flex flex-wrap gap-3">
+  <div class="container-lp grid gap-6 pt-5 pb-10 md:py-12 lg:grid-cols-[1.05fr_1fr] lg:items-center lg:gap-14">
+    <div class="order-2 lg:order-1">
+      <h1 id="hero-titulo" class="font-titulo text-[2.5rem] leading-[1.02] text-balance sm:text-5xl lg:text-6xl">Marquinha dourada no Jaguaré.</h1>
+      <p class="mt-4 max-w-[34rem] text-lg text-superficie md:text-xl">Bronze de fita ou com aerógrafo, feito pela Aline num estúdio pensado para você ficar à vontade, até na primeira vez.</p>
+      <div class="mt-6 flex flex-wrap gap-3">
         <a href="https://wa.me/5511932530666?text=Ol%C3%A1!%20Vi%20o%20site%20e%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noopener"
            class="btn btn-whatsapp btn-lg" data-track="whatsapp" data-origem="hero">Agendar pelo WhatsApp</a>
         <a href="#galeria" class="btn btn-lg border-2 border-superficie/60 text-sobre-marca hover:bg-marca-escura">Ver marquinhas</a>
       </div>
-      <p class="mt-8 text-sm text-superficie">
+      <p class="mt-6 text-sm text-superficie">
         <a href="https://www.google.com/maps/search/?api=1&amp;query=Para%C3%ADso%20dourado%20bronzeamento%20artificial&amp;query_place_id=ChIJ7XIw87xXzpQR2yrinMPZpvk" target="_blank" rel="noopener"
            class="underline decoration-acento decoration-2 underline-offset-4 hover:text-sobre-marca" data-track="avaliar-google" data-origem="hero">Nota 5,0 no Google em 80 avaliações</a>.
         Aberto 24 horas.
       </p>
     </div>
 
-    <div class="relative order-1 mx-auto w-full max-w-md lg:order-2 lg:max-w-none">
+    <div class="order-1 mx-auto w-full max-w-md lg:order-2 lg:max-w-none">
       <img src="assets/img/hero-1600.webp"
            srcset="assets/img/hero-800.webp 800w, assets/img/hero-1600.webp 1600w"
            sizes="(min-width: 1024px) 45vw, (min-width: 448px) 28rem, 100vw"
            width="1600" height="1600"
            alt="Cliente de cabelo preto e batom vermelho com a marquinha de alça fina aparecendo no ombro e no colo"
            fetchpriority="high"
-           class="relative z-10 aspect-[4/5] w-full rounded-marca object-cover object-[50%_35%]">
-      <svg class="faixa-marquinha pointer-events-none absolute -top-[10%] -left-[60%] z-0 h-[120%] w-[160%] overflow-visible"
-           viewBox="0 0 640 600" fill="none" aria-hidden="true">
-        <path pathLength="1" d="M150 -20 Q200 300 252 598 Q420 280 690 30" stroke="#f4d3ba" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
-        <path pathLength="1" d="M163 -20 Q213 300 265 598 Q433 280 703 30" stroke="#d9a441" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
-      </svg>
+           class="aspect-[4/3] w-full rounded-marca object-cover object-[50%_35%] lg:aspect-[4/5] lg:max-h-[calc(100svh-10rem)]">
     </div>
   </div>
 </section>
