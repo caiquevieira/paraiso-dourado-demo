@@ -32,8 +32,8 @@
     @font-face { font-family: "Figtree"; font-weight: 400 700; font-style: normal; font-display: swap; src: url("assets/fonts/figtree-variavel.woff2") format("woff2"); }
   </style>
 
-  <link rel="stylesheet" href="assets/css/styles.css?v=202610282015">
-  <script src="assets/js/main.js?v=202610282015" defer></script>
+  <link rel="stylesheet" href="assets/css/styles.css?v=202610282022">
+  <script src="assets/js/main.js?v=202610282022" defer></script>
 
   <!-- Coordenadas (geo) omitidas até confirmar a latitude/longitude exatas do estúdio -->
   <script type="application/ld+json">
@@ -105,7 +105,7 @@
 
 <main id="conteudo">
 <!-- SECTION: hero -->
-<!-- Elemento ousado da página: a faixa da marquinha (alça de biquíni de fita em V, SVG inline).
+<!-- Elemento ousado da página: a faixa da marquinha (alça de biquíni de fita em V, SVG inline), por trás da foto.
      O SVG cobre a foto e sobra 60% à esquerda; viewBox 640x600 = 1,6 × 1,2 da caixa 4:5 da foto. -->
 <section id="inicio" class="overflow-hidden bg-marca text-sobre-marca" aria-labelledby="hero-titulo">
   <div class="container-lp grid gap-10 pt-8 pb-16 md:py-20 lg:grid-cols-[1.05fr_1fr] lg:items-center lg:gap-16">
@@ -131,11 +131,11 @@
            width="1600" height="1600"
            alt="Cliente de cabelo preto e batom vermelho com a marquinha de alça fina aparecendo no ombro e no colo"
            fetchpriority="high"
-           class="relative aspect-[4/5] w-full rounded-marca object-cover object-[50%_35%]">
-      <svg class="faixa-marquinha pointer-events-none absolute -top-[10%] -left-[60%] h-[120%] w-[160%] overflow-visible"
+           class="relative z-10 aspect-[4/5] w-full rounded-marca object-cover object-[50%_35%]">
+      <svg class="faixa-marquinha pointer-events-none absolute -top-[10%] -left-[60%] z-0 h-[120%] w-[160%] overflow-visible"
            viewBox="0 0 640 600" fill="none" aria-hidden="true">
-        <path pathLength="1" d="M170 -20 Q234 290 300 560 Q430 262 660 46" stroke="#f4d3ba" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
-        <path pathLength="1" d="M183 -20 Q247 290 313 560 Q443 262 673 46" stroke="#d9a441" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+        <path pathLength="1" d="M150 -20 Q200 300 252 598 Q420 280 690 30" stroke="#f4d3ba" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+        <path pathLength="1" d="M163 -20 Q213 300 265 598 Q433 280 703 30" stroke="#d9a441" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
       </svg>
     </div>
   </div>
